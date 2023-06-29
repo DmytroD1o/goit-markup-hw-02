@@ -42,7 +42,7 @@ body {
 .header-logo span {
   color: var(--main-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: 'Raleway';
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -106,7 +106,7 @@ body {
 .hero-button {
   border-radius: 4px;
   color: var(--third-color);
-  font-family: Roboto, sans-serif;
+  font-family: inherit, sans-serif;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04;
@@ -206,7 +206,7 @@ body {
 .portolio-btns {
   color: var(--herobutton-bckgnd-color);
   text-align: center;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -220,7 +220,7 @@ body {
 .portolio-btns:focus {
   color: var(--third-color);
   text-align: center;
-  font-family: Roboto;
+  font-family: inherit;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -230,8 +230,6 @@ body {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
-.developments {
-}
 .developments-list {
 }
 
