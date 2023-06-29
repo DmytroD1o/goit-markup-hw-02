@@ -10,6 +10,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--secondary-color);
   background-color: var(--third-color);
 }
 
@@ -32,17 +33,17 @@ body {
 .header-logo {
   color: var(--herobutton-bckgnd-color);
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.header-logo span {
+.header-logo-span {
   color: var(--main-color);
   font-size: 18px;
-  font-family: 'Raleway';
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -68,6 +69,7 @@ body {
 }
 
 .header-address {
+  font-style: normal ;
 }
 
 .header-address-list {
@@ -104,22 +106,19 @@ body {
 }
 
 .hero-button {
-  border-radius: 4px;
   color: var(--third-color);
-  font-family: inherit, sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.04;
+  letter-spacing: 0.04em;
   background: var(--herobutton-bckgnd-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
 }
 
 .hero-button:hover,
 .hero-button:focus {
-  border-radius: 4px;
   background: var(--hover-focus-color);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 /* *--------------------ADVANTAGES------------------------- */
@@ -166,7 +165,7 @@ body {
 /* *--------------------OUR TEAM------------------------- */
 
 .our-team-section {
-  background-color: var(--portfolio-btns-bckgnd-color);
+  background-color: var(--third-color);
 }
 .team-section-title {
   color: var(--main-color);
@@ -207,10 +206,10 @@ body {
   color: var(--herobutton-bckgnd-color);
   text-align: center;
   font-family: inherit;
+  font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background: var(--portfolio-btns-bckgnd-color);
   border: 1px solid var(--portfolio-border-color);
   cursor: pointer;
@@ -224,10 +223,7 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  border-radius: 4px;
   background-color: var(--hover-focus-color);
-  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
-    0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
 }
 
 .developments-list {
@@ -262,14 +258,14 @@ body {
 .footer-logo {
   color: var(--herobutton-bckgnd-color);
   font-size: 18px;
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
-.footer-logo span {
+.footer-logo-span {
   color: var(--portfolio-btns-bckgnd-color);
   font-size: 18px;
   font-family: Raleway;
