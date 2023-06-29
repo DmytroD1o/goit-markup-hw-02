@@ -165,7 +165,7 @@ body {
 /* *--------------------OUR TEAM------------------------- */
 
 .our-team-section {
-  background-color: var(--third-color);
+  background-color: var(--portfolio-btns-bckgnd-color);
 }
 .team-section-title {
   color: var(--main-color);
@@ -178,6 +178,7 @@ body {
 .team-list {
 }
 .team-section-item {
+  background-color: var(--third-color);
 }
 .team-section-subtitle {
   color: var(--main-color);
